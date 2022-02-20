@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hasło do wiertła</title>
+</head>
+<body>
+	<div class="container">
+		<form onsubmit="return false;">
+			    <label>Pierwsza liczba</label>
+			   	<input type="number" id="firstnumber"required></br>
+				<label>Druga liczba</label>
+				 <input type="number" id="secondnumber"required></br>
+				    	<label>Ciąg do deszyfracji</label>
+				    	<input id="TextToDecrypt">
+				    	<button onclick="decryptStart()">Deszyfruj</button></br>
+				    	<label>Twoje hasło</label>
+				    	<textarea id="decyrptedPassword" style="resize:none" rows="1" disabled></textarea>
+		</form>
+	</div>
+	<script src="CesarEncryption.js"></script>
+</body>
+</html>
