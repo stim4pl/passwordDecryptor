@@ -2,20 +2,10 @@ const aol = 'abcdefghijklmnopqrstuvwxyz'
 
 function calcRoll(a, b){
     let c;
-    switch(a){
-        case 8: 
-            c = parseInt(b,8);
-            break;
-        case 10:
-            c = b;
-            break;
-        case 16:
-            c = parseInt(b,16);
-            break;
-        default:
-            c = b;
-            break;
+    if((a>=2) && (a <=32)){
+        c = parseInt(b,a)
     }
+    else c = b
     return c;
 }
 
