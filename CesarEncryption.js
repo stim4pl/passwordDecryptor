@@ -1,22 +1,7 @@
 const aol = 'abcdefghijklmnopqrstuvwxyz'
 
 function calcRoll(a, b){
-    let c;
-    switch(a){
-        case 8: 
-            c = parseInt(b,8);
-            break;
-        case 10:
-            c = b;
-            break;
-        case 16:
-            c = parseInt(b,16);
-            break;
-        default:
-            c = b;
-            break;
-    }
-    return c;
+    return parseInt(b, a);
 }
 
 
