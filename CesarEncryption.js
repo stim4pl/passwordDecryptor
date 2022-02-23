@@ -1,12 +1,7 @@
 const aol = '0abcdefghijklmnopqrstuvwxyz'
 
 function calcRoll(a, b){
-    let c;
-    if((a>=2) && (a <=32)){
-        c = parseInt(b,a)
-    }
-    else c = b
-    return c;
+    return parseInt(b, a);
 }
 
 
