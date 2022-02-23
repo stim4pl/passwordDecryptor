@@ -1,4 +1,4 @@
-const aol = 'abcdefghijklmnopqrstuvwxyz'
+const aol = '0abcdefghijklmnopqrstuvwxyz'
 
 function calcRoll(a, b){
     let c;
